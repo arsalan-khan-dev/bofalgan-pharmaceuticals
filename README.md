@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="screenshots/banner.png" alt="Bofalgan Pharmaceuticals Banner" width="100%"/>
+<img src="BofalganPharmacy/screenshots/banner.png" alt="Bofalgan Pharmaceuticals Banner" width="100%"/>
 
 <br/>
 
