@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="BofalganPharmacy" default="compile" basedir=".">
+
+    <property name="src.dir"     value="src"/>
+    <property name="build.dir"   value="build"/>
+    <property name="lib.dir"     value="lib"/>
+    <property name="dist.dir"    value="dist"/>
+    <property name="main.class"  value="com.bofalgan.pharmacy.Main"/>
+
+    <path id="classpath">
+        <fileset dir="${lib.dir}">
+            <include name="**/*.jar"/>
+        </fileset>
+    </path>
+
+    <target name="init">
+        <mkdir dir="${build.dir}"/>
+        <mkdir dir="${dist.dir}"/>
+    </target>
+
+    <target name="compile" depends="init">
+        <javac
+            srcdir="${src.dir}"
+            destdir="${build.dir}"
+            classpathref="classpath"
+            includeantruntime="false"
+            source="11"
+            target="11"
+            encoding="UTF-8"
+            debug="true">
+        </javac>
+        <echo message="Compilation successful."/>
+    </target>
+
+    <target name="run" depends="compile">
+        <java classname="${main.class}" fork="true">
+            <classpath>
+                <path refid="classpath"/>
+                <pathelement path="${build.dir}"/>
+            </classpath>
+            <jvmarg value="--module-path"/>
+            <jvmarg value="${lib.dir}"/>
+            <jvmarg value="--add-modules=javafx.controls,javafx.graphics,javafx.base"/>
+            <jvmarg value="-Xmx512m"/>
+        </java>
+    </target>
+
+    <target name="clean">
+        <delete dir="${build.dir}"/>
+        <delete dir="${dist.dir}"/>
+        <echo message="Build cleaned."/>
+    </target>
+
+    <target name="jar" depends="compile">
+        <jar destfile="${dist.dir}/BofalganPharmacy.jar" basedir="${build.dir}">
+            <manifest>
+                <attribute name="Main-Class" value="${main.class}"/>
+                <attribute name="Class-Path" value="."/>
+            </manifest>
+        </jar>
+        <echo message="JAR created at ${dist.dir}/BofalganPharmacy.jar"/>
+    </target>
+
+</project>
