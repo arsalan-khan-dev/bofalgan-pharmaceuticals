@@ -543,6 +543,8 @@ BS Software Engineering · Full Stack · AI & ML · Cybersecurity
 
 [![GitHub](https://img.shields.io/badge/GitHub-arsalan--khan--dev-181717?style=for-the-badge&logo=github)](https://github.com/arsalan-khan-dev)
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-Arsalan%20Khan-blue?style=for-the-badge&logo=google-chrome)](https://arsalan-khan-dev.github.io/portfolio-website/)
+
 </div>
 
 ---
@@ -553,7 +555,7 @@ BS Software Engineering · Full Stack · AI & ML · Cybersecurity
 
 <br/>
 
-Built with ❤️ using **Java · MySQL · Pure JavaFX**
+Built using **Java · MySQL · Pure JavaFX**
 
 *No frameworks. No shortcuts. Just clean, production-grade code.*
 
