@@ -61,19 +61,19 @@ The system uses **two storage layers simultaneously**: MySQL as the primary data
 
 | Screen | Preview |
 |--------|---------|
-| Login Screen | <img src="screenshots/login.png" width="600"/> |
-| Dashboard | <img src="screenshots/dashboard.png" width="600"/> |
-| Medicine Inventory | <img src="screenshots/medicines.png" width="600"/> |
-| BillingPOS | <img src="screenshots/billing_pos.png" width="600"/> |
-| Analytics Dashboard | <img src="screenshots/analytics.png" width="600"/> |
-| Purchase Orders | <img src="screenshots/purchases.png" width="600"/> |
-| Invoice History | <img src="screenshots/invoices.png" width="600"/> |
-| Suppliers | <img src="screenshots/suppliers.png" width="600"/> |
-| Reports | <img src="screenshots/reports.png" width="600"/> |
-| Settings | <img src="screenshots/settings.png" width="600"/> |
-| User Management | <img src="screenshots/user_management.png" width="600"/> |
+| Login Screen | <img src="BofalganPharmacy/screenshots/Login Screen.PNG" width="600"/> |
+| Dashboard | <img src="BofalganPharmacy/screenshots/Dashboard.PNG" width="600"/> |
+| Medicine Inventory | <img src="BofalganPharmacy/screenshots/Medicine Inventory.PNG" width="600"/> |
+| BillingPOS | <img src="BofalganPharmacy/screenshots/BillingPOS.PNG" width="600"/> |
+| Analytics Dashboard | <img src="BofalganPharmacy/screenshots/Analytics Dashboard.PNG" width="600"/> |
+| Purchase Orders | <img src="BofalganPharmacy/screenshots/Purchase Orders.PNG" width="600"/> |
+| Invoice History | <img src="BofalganPharmacy/screenshots/Invoice History.PNG" width="600"/> |
+| Suppliers | <img src="BofalganPharmacy/screenshots/Suppliers.PNG" width="600"/> |
+| Reports | <img src="BofalganPharmacy/screenshots/Reports.PNG" width="600"/> |
+| Settings | <img src="BofalganPharmacy/screenshots/Settings.PNG" width="600"/> |
+| User Management | <img src="BofalganPharmacy/screenshots/User Management.PNG" width="600"/> |
 
-> 📁 All screenshots are located in the [`screenshots/`](screenshots/) directory.
+> 📁 All screenshots are located in the [`screenshots/`](BofalganPharmacy/screenshots/) directory.
 
 ---
 
